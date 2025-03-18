@@ -7,7 +7,7 @@ const ProtectedRoute = ({ children }) => {
   const router = useRouter();
 
   useEffect(() => {
-    // new branch
+    // to make the new issue
     if (role !== "ADMIN") {
       router.push("/");
     }
