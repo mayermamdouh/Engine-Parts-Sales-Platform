@@ -7,9 +7,9 @@ const ProtectedRoute = ({ children }) => {
   const router = useRouter();
 
   useEffect(() => {
-    
+    // test
     if (role !== "ADMIN") {
-      router.push("/"); 
+      router.push("/");
     }
   }, [role, router]);
 
